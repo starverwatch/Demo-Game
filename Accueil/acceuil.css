@@ -1,0 +1,46 @@
+﻿/* Mise en forme des phrases */
+.bmenu li a{
+	color: transparent;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 5px #fff;
+	letter-spacing: 2px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color:rgb(255, 77, 77);
+    text-decoration: none;
+    text-align: center;
+	font-family: georgia;
+}
+
+/* Position vertical */
+.bmenu {
+position: absolute;
+top: 50%; left: 50%; /* à 50%/50% du parent référent */
+transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */ 
+}
+
+
+.bmenu:hover li a{
+	text-shadow: 0px 0px 5px #0d1a3a;
+    color:rgba(255, 129, 129, 0.164);
+}
+
+
+.bmenu li a:hover{
+	color: rgb(255, 255, 255);
+	text-shadow: 0px 0px 1px rgb(0, 0, 0);
+	padding-left: 10px;
+}
+
+/* Image de fond */
+body, html {
+    background-image: url("Images/ImageStarcraft2.png");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
