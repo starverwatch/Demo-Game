@@ -1,4 +1,4 @@
-﻿/* Mise en forme des phrases */
+/* Mise en forme des phrases */
 .bmenu li a{
 	color: transparent;
 	display: block;
@@ -38,7 +38,7 @@ transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
 
 /* Image de fond */
 body, html {
-    background-image: url("Images/ImageStarcraft2.png");
+    background-image: url("images/subnautica-accueil.png");
     height:100%;
     background-position: center;
     background-repeat: no-repeat;
