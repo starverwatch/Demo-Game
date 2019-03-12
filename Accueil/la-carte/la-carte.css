@@ -1,0 +1,6 @@
+/* Image de fond */
+body, html{
+    background-image: url(" guidnautica.jpg");
+    height: 100%;
+    background-position: fixed;
+}
