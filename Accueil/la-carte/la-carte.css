@@ -1,6 +1,13 @@
-/* Image de fond */
-body, html{
-    background-image: url(" guidnautica.jpg");
+/* Image de font en position fixe */
+body, html {
+    background-image: url("../images/guidnautica.png");
     height: 100%;
-    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+#carte {
+    /* Ajoutez le code pour placer correctement la carte
+    au milieu du site */
 }

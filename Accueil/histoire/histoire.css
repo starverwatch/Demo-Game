@@ -25,7 +25,7 @@ nav {
 	margin: 27px auto 0;
 
 	position: relative;
-	width: 590px;
+	width: 530px;
 	height: 50px;
 	background-color: #34495e;
 	border-radius: 8px;
@@ -69,7 +69,7 @@ a:nth-child(3) {
 }
 
 a:nth-child(4) {
-	width: 160px;
+	width: 100px;
 }
 
 a:nth-child(5) {
@@ -95,14 +95,14 @@ nav .start-wiki, a:nth-child(3):hover~.animation {
 }
 
 nav .start-la-carte, a:nth-child(4):hover~.animation {
-	width: 160px;
+	width: 100px;
 	left: 310px;
 	background-color: #9b59b6;
 }
 
 nav .start-a-propos, a:nth-child(5):hover~.animation {
 	width: 120px;
-	left: 470px;
+	left: 405px;
 	background-color: #e67e22;
 }
 
