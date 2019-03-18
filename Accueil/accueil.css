@@ -1,10 +1,10 @@
-﻿/* Image de fond */
+﻿/* Image de font en position fixe */
 body, html {
-    background-image: url("images/subnautica-accueil.png");
-    height:100%;
-    background-position: center;
+    background-image: url("images/Subnautica-accueil.png");
+    height: 100%;
     background-repeat: no-repeat;
-	background-size: cover;
+    background-size:cover;
+    background-attachment: fixed;
 }
 
 /* Code video central */
@@ -65,52 +65,52 @@ nav .animation {
 }
 
 a:nth-child(1) {
-	width: 100px;
+	width: 70px;
 }
 
 a:nth-child(2) {
-	width: 110px;
+	width: 90px;
 }
 
 a:nth-child(3) {
-	width: 100px;
+	width: 60px;
 }
 
 a:nth-child(4) {
-	width: 160px;
+	width: 90px;
 }
 
 a:nth-child(5) {
-	width: 120px;
+	width: 100px;
 }
 
 nav .start-home, a:nth-child(1):hover~.animation {
-	width: 100px;
+	width: 70px;
 	left: 0;
 	background-color: #1abc9c;
 }
 
 nav .start-histoire, a:nth-child(2):hover~.animation {
-	width: 110px;
-	left: 100px;
+	width: 90px;
+	left: 70px;
 	background-color: #e74c3c;
 }
 
 nav .start-wiki, a:nth-child(3):hover~.animation {
-	width: 100px;
-	left: 210px;
+	width: 60px;
+	left: 160px;
 	background-color: #3498db;
 }
 
 nav .start-la-carte, a:nth-child(4):hover~.animation {
-	width: 160px;
-	left: 310px;
+	width: 90px;
+	left: 220px;
 	background-color: #9b59b6;
 }
 
 nav .start-a-propos, a:nth-child(5):hover~.animation {
-	width: 120px;
-	left: 470px;
+	width: 100px;
+	left: 310px;
 	background-color: #e67e22;
 }
 
