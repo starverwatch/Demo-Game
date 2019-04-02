@@ -55,9 +55,8 @@ a:nth-child(2) {
 	width: 100px;
 }
 
-	
 a:nth-child(3) {
-	width: 100px;
+	width: 80px;
 }
 
 a:nth-child(4) {
@@ -75,16 +74,11 @@ nav .start-histoire, a:nth-child(2):hover~.animation {
 	left: 80px;
 	background-color: #e74c3c;
 }
+
 	
-nav .start-wiki, a:nth-child(3):hover~.animation {
-	width: 70px;
+nav .start-la-carte, a:nth-child(3):hover~.animation {
+	width: 80px;
 	left: 180px;
-	background-color: #3498db;
-}
-	
-nav .start-la-carte, a:nth-child(4):hover~.animation {
-	width: 100px;
-	left: 250px;
 	background-color: #9b59b6;
 }
 
