@@ -1,13 +1,4 @@
-﻿/* Titre du site: "Histoire" */
-#titre {
-	text-align: center;
-	font-size: 45px;
-	font-family: arial;
-	color: rgb(216, 214, 214);
-	text-shadow:0px 0px 5px rgb(4, 0, 255);
-}
-
-/* Image de font en position fixe */
+﻿/* Image de font en position fixe */
 body, html {
     background-image: url("../images/aurora.png");
     height: 100%;
