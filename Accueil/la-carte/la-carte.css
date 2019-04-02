@@ -16,13 +16,13 @@ body, html {
 nav {
 	margin: 27px auto 0;
 	position: relative;
-	width: 460px;
+	width: 370px;
 	height: 50px;
 	background-color: #34495e;
 	border-radius: 8px;
 	font-size: 0;
 }
-	
+
 nav a {
 	line-height: 50px;
 	height: 100%;
@@ -37,7 +37,7 @@ nav a {
 	cursor: pointer;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
-	
+
 nav .animation {
 	position: absolute;
 	height: 100%;
@@ -46,11 +46,11 @@ nav .animation {
 	transition: all .5s ease 0s;
 	border-radius: 8px;
 }
-	
+
 a:nth-child(1) {
 	width: 80px;
 }
-	
+
 a:nth-child(2) {
 	width: 100px;
 }
@@ -63,17 +63,23 @@ a:nth-child(3) {
 a:nth-child(4) {
 	width: 110px;
 }
-	
+
 nav .start-home, a:nth-child(1):hover~.animation {
 	width: 80px;
 	left: 0;
 	background-color: #1abc9c;
 }
-	
+
 nav .start-histoire, a:nth-child(2):hover~.animation {
 	width: 100px;
 	left: 80px;
 	background-color: #e74c3c;
+}
+	
+nav .start-wiki, a:nth-child(3):hover~.animation {
+	width: 70px;
+	left: 180px;
+	background-color: #3498db;
 }
 	
 nav .start-la-carte, a:nth-child(4):hover~.animation {
@@ -81,10 +87,10 @@ nav .start-la-carte, a:nth-child(4):hover~.animation {
 	left: 250px;
 	background-color: #9b59b6;
 }
-	
-nav .start-a-propos, a:nth-child(5):hover~.animation {
+
+nav .start-a-propos, a:nth-child(4):hover~.animation {
 	width: 110px;
-	left: 350px;
+	left: 260px;
 	background-color: #e67e22;
 }
 	
