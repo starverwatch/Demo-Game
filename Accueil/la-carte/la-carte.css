@@ -1,4 +1,4 @@
-/* Image de font en position fixe */
+﻿/* Image de font en position fixe */
 body, html {
     background-image: url("../images/guidnautica.png");
     height: 100%;
@@ -102,7 +102,6 @@ nav .start-a-propos, a:nth-child(5):hover~.animation {
 
 /* Décoration des balises "<p>" */
 p {
-    position: absolute;
     bottom: 20px;
     width: 100%;
     text-align: center;
@@ -111,3 +110,36 @@ p {
     font-size: 16px;
 }
 	/* Fin progra: barre de menu */
+
+	/* Boite sombre pour le text */
+#support-texte {
+	background-color: rgba(0, 0, 0, 0.61);
+	padding: 0.5% 3% 1% 3%;
+	margin: 2% 20% 2% 20%;
+}
+
+/* Décoration de la balise " sous-titre " */
+#sous-titre {
+	bottom: 20px;
+	width: 100%;
+	color: #ffffff;
+	font-size: 30px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Paramètre de titre */
+#titre {
+	text-align: center;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: 'Cherry Swash', cursive;
+}
+
+/* Style pour le texte */
+.text {
+	font-family: 'Courier New', Courier, monospace;
+	color: #ffffff;
+}
