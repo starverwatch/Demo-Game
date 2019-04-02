@@ -110,7 +110,7 @@ nav .start-a-propos, a:nth-child(5):hover~.animation {
 	margin: 2% 20% 2% 20%;
 }
 
-/* Décoration de la balise " sous-titre " */
+/* Décoration de la balise " titre " */
 #sous-titre {
 	bottom: 20px;
 	width: 100%;
@@ -118,18 +118,6 @@ nav .start-a-propos, a:nth-child(5):hover~.animation {
 	font-size: 30px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-/* Paramètre de titre */
-#titre {
-	text-align: center;
-	margin: 40px 0 40px;
-	text-align: center;
-	font-size: 30px;
-	color: #ffffff;
-	text-shadow: 2px 2px 4px #000000;
-	font-family: 'Cherry Swash', cursive;
-}
-
 /* Style pour le texte */
 .text {
 	font-family: 'Courier New', Courier, monospace;
