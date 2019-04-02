@@ -32,7 +32,7 @@ body, html {
 nav {
 	margin: 27px auto 0;
 	position: relative;
-	width: 590px;
+	width: 460px;
 	height: 50px;
 	background-color: #34495e;
 	border-radius: 8px;
@@ -113,6 +113,8 @@ nav .start-a-propos, a:nth-child(5):hover~.animation {
 	background-color: #e67e22;
 }
 
+/* Fin progra barre de menu */
+
 h1 {
 	text-align: center;
 	margin: 40px 0 40px;
@@ -143,5 +145,3 @@ span {
 #by {
 	background-color:#34495e ;
 }
-
-	/* Fin progra: barre de menu */
