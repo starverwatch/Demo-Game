@@ -3,6 +3,7 @@
     <head>
         <title>L'histoire de Subnautica</title>
         <link rel="stylesheet" type="text/css" href="histoire.css">
+        <script></script>
     </head>
 
     <body>
@@ -30,8 +31,25 @@
 
         <div class="text">
             <p>Ryley Robinson, rescapé du crash de l'aurora, un vaisseau qui effectuait une manoeuvre autour de la planète n°4546B dans le but d'intaller un nouveau " Portail de Phase " et donc étendre le réseau spacial de la corporation Alterra</br>
-            Mais il y avait aussi une mission secrète : retrouver les traces des survivants du Degasi, le vaisseau d'une compagnie rivale d'Alterra, qui s'était écrasé sur la même planète plusieurs années auparavant.</br>
-            </p> <a class="sources" href="https://www.bananatic.com/fr/jeux/subnautica-une-aventure-aquatique-couper-le-souffle-12013">Source : Bananatic</a>
+            Mais il y avait aussi une mission secrète : retrouver les traces des survivants du Degasi, le vaisseau d'une compagnie rivale d'Alterra, qui s'était écrasé sur la même planète plusieurs années auparavant.</br> </br>
+            
+            <button id="boutton" onclick="myFunction()">[SPOIL]</button>
+                <div id="myDIV">
+                This is my DIV element.
+                </div>
+
+            <script type="text/javascript" src="monscript.js">
+                function myFunction() {
+                    var x = document.getElementById("myDIV");
+                    if (x.style.display === "none") {
+                        x.style.display = "block";
+                    } else {
+                        x.style.display = "none";
+                    }
+} 
+            </script>
+
+        </p> <a class="sources" href="https://www.bananatic.com/fr/jeux/subnautica-une-aventure-aquatique-couper-le-souffle-12013">Source : Bananatic</a>
 
         </div>
 

@@ -125,3 +125,16 @@ nav .start-a-propos, a:nth-child(4):hover~.animation {
 .sources:hover {
 	color:rgb(255, 0, 0);
 }
+
+#boutton{
+	transition: 0.5s;
+	background-color: rgba(0, 0, 0, 0.158);
+	color: white;
+	border-radius: 8px;
+}
+
+#boutton:hover{
+	transition: 0.5s;
+	background-color: rgb(255, 255, 255);
+	color: black;
+}
