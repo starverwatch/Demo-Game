@@ -114,16 +114,19 @@ nav .start-a-propos, a:nth-child(4):hover~.animation {
 /* Style pour le texte */
 .text {
 	font-family: 'Courier New', Courier, monospace;
-	color: #ffffff;
+	color: #bdfff1;
+	font-size: 20px;
 }
 
 /* Couleurs des sources pour l'histoire */
 .sources {
 	color: rgb(0, 162, 255);
+	transition: 0.5s;
 }
 
 .sources:hover {
 	color:rgb(255, 0, 0);
+	transition: 0.5s;
 }
 
 #boutton{
