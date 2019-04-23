@@ -85,17 +85,17 @@ nav .start-a-propos, a:nth-child(4):hover~.animation {
 	/* Fin progra: barre de menu */
 
 	/* Boite sombre pour le text */
-#support-texte {
+.support-texte {
 	background-color: rgba(0, 0, 0, 0.61);
 	padding: 0.5% 3% 1% 3%;
 	margin: 2% 20% 2% 20%;
 }
 
 /* Décoration de la balise " sous-titre " */
-#sous-titre {
+.sous-titre {
     bottom: 20px;
     width: 100%;
-    color: #ffffff;
+    color: #00ffdd;
 	font-size: 30px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -129,12 +129,17 @@ nav .start-a-propos, a:nth-child(4):hover~.animation {
 #boutton{
 	transition: 0.5s;
 	background-color: rgba(0, 0, 0, 0.158);
-	color: white;
+	color: rgb(5, 255, 213);
+	border-color: rgb(5, 255, 213);
 	border-radius: 8px;
 }
 
 #boutton:hover{
 	transition: 0.5s;
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(5, 255, 213);
 	color: black;
+}
+
+#myDIV{
+	display: none;
 }
