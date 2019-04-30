@@ -139,7 +139,7 @@ p {
 
 /* Style pour le texte */
 .text {
-	font-family: arial;
+	font-family: 'Courier New', Courier, monospace;
 	color: #ffffff;
 }
 /* Image dans le texte */
