@@ -109,14 +109,14 @@ h1 {
 #sous-titre{
 	font-size: 60px;
 	position: absolute;
-	color: #b8ffc6;
+	color: #ffffff;
 	font-family: Impact, 'Arial Narrow Bold';
 	margin: 70px 0 0 710px;
 	padding: 0 10px 0 10px;
 	border: solid;
-	border-color: rgb(178, 255, 193);
+	border-color: rgb(0, 0, 0);
 	border-radius: 8px;
-	background-color: rgba(0, 47, 255, 0.37);
+	background-color: rgba(0, 0, 0, 0.219);
 	text-align: center;
 }
 
