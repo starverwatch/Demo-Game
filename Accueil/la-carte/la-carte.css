@@ -131,7 +131,6 @@ p {
 #titre {
 	text-align: center;
 	margin: 40px 0 40px;
-	text-align: center;
 	font-size: 30px;
 	color: #ffffff;
 	text-shadow: 2px 2px 4px #000000;
@@ -140,6 +139,13 @@ p {
 
 /* Style pour le texte */
 .text {
-	font-family: 'Courier New', Courier, monospace;
+	font-family: arial;
 	color: #ffffff;
 }
+/* Image dans le texte */
+#image-de-la-carte{
+	height: 500px;
+	width: 750px;
+
+} 
+/* Police pour le texte */
