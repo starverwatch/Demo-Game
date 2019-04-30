@@ -104,15 +104,37 @@ nav .start-a-propos, a:nth-child(4):hover~.animation {
 p {
     bottom: 20px;
     width: 100%;
-    text-align: center;
+    text-align: left;
     color: #ecf0f1;
     font-size: 16px;
 }
 	/* Fin progra: barre de menu */
 
 	/* Boite sombre pour le text */
-#support-texte {
-	background-color: rgba(0, 0, 0, 0.61);
+
+
+#support-texte_1 {
+	background-color: rgba(0, 0, 0, 0.603);
+	padding: 0.5% 3% 1% 3%;
+	margin: 2% 20% 2% 20%;
+}
+#support-texte_2 {
+	background-color: rgba(105, 105, 105, 0.603);
+	padding: 0.5% 3% 1% 3%;
+	margin: 2% 20% 2% 20%;
+}
+#support-texte_3 {
+	background-color: rgba(200, 253, 52, 0.603);
+	padding: 0.5% 3% 1% 3%;
+	margin: 2% 20% 2% 20%;
+}
+#support-texte_4 {
+	background-color: rgba(105, 105, 105, 0.507);
+	padding: 0.5% 3% 1% 3%;
+	margin: 2% 20% 2% 20%;
+}
+#support-texte_5 {
+	background-color: rgba(105, 105, 105, 0.507);
 	padding: 0.5% 3% 1% 3%;
 	margin: 2% 20% 2% 20%;
 }
@@ -140,6 +162,7 @@ p {
 .text {
 	font-family: 'Courier New', Courier, monospace;
 	color: #ffffff;
+	text-align: left;
 }
 /* Image dans le texte */
 #image-de-la-carte{
